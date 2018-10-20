@@ -1,0 +1,8 @@
+STRING ID	DESCRIPTION	ENGLISH	PORTUGUESE / PORTUGUÊS (BR)	JAPANESE / 日本語
+LANGUAGE_CODE	IETF language tag(s) without dash	enUS enGB	ptBR	jaJP
+LANGUAGE_EN	[LanguageName] in english	English	Portuguese (Brazil)	Japanese
+LANGUAGE_DIRECTION	ltr or rtl (text direction used by game code)	ltr	ltr	ltr
+				
+Polyglot	100			
+GAME_INVENTORY_WEIGHT		Weight	Peso	
+GAME_INVENTORY_FOOD		Food	Comida	
