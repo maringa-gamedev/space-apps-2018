@@ -30,7 +30,7 @@ MonoBehaviour:
     format: 1
   supportedLanguages: 000000000500000010000000
   selectedLanguage: 0
-  fallbackLanguage: 0
+  fallbackLanguage: 5
   Localize:
     m_PersistentCalls:
       m_Calls: []

@@ -6,3 +6,4 @@ LANGUAGE_DIRECTION	ltr or rtl (text direction used by game code)	ltr	ltr	ltr
 Polyglot	100			
 GAME_INVENTORY_WEIGHT		Weight	Peso	
 GAME_INVENTORY_FOOD		Food	Comida	
+EREBUS_PLANNING		Planning	Planejamento	
