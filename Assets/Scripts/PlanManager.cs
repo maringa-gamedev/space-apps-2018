@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class PlanManager : MonoBehaviour
 {
 
-	private Text weight, food, fuel, price;
+	private Text weight, food, fuel, price, boat;
 
 	private Hire astronomy, biology, construction, geography, journalism, medicine;
 
 	private int weightValue, weightCapacity;
-	private int foodValue, fuelValue, priceValue;
+	private int foodValue, fuelValue, priceValue, boatValue;
 
     void Start()
     {
@@ -48,6 +48,9 @@ public class PlanManager : MonoBehaviour
                 foreach (Transform job in child)
                 {
 					switch (job.name) {
+						case "boat":
+							boat = job.GetChild(1).GetComponent<Text>();
+							break;
 						case "weight":
 							weight = job.GetChild(2).GetComponent<Text>();
 							break;
@@ -71,6 +74,16 @@ public class PlanManager : MonoBehaviour
 		weight.text = weightValue +  "/" + weightCapacity + " KG";
 		food.text = foodValue + " KG";
 		fuel.text = fuelValue + " L";
+
+        boatValue = 0;
+		boatValue += astronomy.getCount();
+		boatValue += biology.getCount();
+		boatValue += construction.getCount();
+		boatValue += geography.getCount();
+		boatValue += journalism.getCount();
+		boatValue += medicine.getCount();
+        boat.text = boatValue + "/12"; 
+
 		priceValue = 0;
 		priceValue += 10000 * astronomy.getCount();
 		priceValue += 10000 * biology.getCount();
