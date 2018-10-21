@@ -17,6 +17,11 @@ public class PlanManager : MonoBehaviour
 
     private ShopManager shop;
 
+	public bool canProceed {
+		get;
+		private set;
+	}
+
     void Start()
     {
         foreach (Transform child in transform)
@@ -121,5 +126,7 @@ public class PlanManager : MonoBehaviour
         for (var i = 0; i < 11; i++)
             priceValue += shop.GetQuantityAt(i) * ShopManager.prices[i];
         price.text = "$" + priceValue;
+
+		canProceed = boatValue <= 14 && weightValue <= weightCapacity;
     }
 }
