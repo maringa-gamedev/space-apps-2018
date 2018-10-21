@@ -29,3 +29,8 @@ EREBUS_TRUCK_DESC		Facilitates ground travel	Facilita viagem terrestre
 EREBUS_SYRINGE_DESC		Supply for medical care	Insumo do cuidado médico	
 EREBUS_CAMERA_DESC		Tool for documentary recording	Ferramenta para gravar documentários	
 EREBUS_BASE_DESC		Material needed for base building	Material necessário para construção de base	
+EREBUS_FOOD_DESC		Food for crew. Sold in tons	Comida para a tripulação. Vendida em toneladas	
+EREBUS_FUEL_DESC		Fuel for machinery. Sold in thousand liters	Combustível para o maquinário. Vendido em milhares de litros	
+EREBUS_FOOD		Food	Comida	
+EREBUS_FUEL		Fuel	Combustível	
+EREBUS_MISSION		Missions	Missões	
