@@ -2358,7 +2358,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b3c8ce8e28caf48939f247e1f01969d8, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -2369,13 +2369,12 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1.45
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere
-    tellus sem, a volutpat nulla lacinia ac. Maecenas commodo sodales porttitor. Mauris
-    fringilla dignissim diam vel pulvinar. Sed scelerisque felis et ligula maximus
-    congue. Integer aliquam arcu risus, nec finibus magna accumsan quis. Vestibulum
-    venenatis dolor at suscipit eleifend. Curabitur eu turpis quam. Donec mollis justo
-    quis est aliquam convallis.
+    m_LineSpacing: 1.35
+  m_Text: "Como gerente de projeto que obteve autoriza\xE7\xE3o para planejar e executar
+    uma expedi\xE7\xE3o a Ant\xE1rtida, com objetivos diversos. Suas conquistas ser\xE3o
+    avaliadas conforme a quantidade de dinheiro necess\xE1ria e os objetivos alcan\xE7ados.
+    Mas \xE9 importante lembrar dos riscos est\xE3o envolvidos nessa jornada, que
+    v\xE3o desde nevascas a perda de membros da equipe.\n"
 --- !u!222 &1141118441
 CanvasRenderer:
   m_ObjectHideFlags: 0
