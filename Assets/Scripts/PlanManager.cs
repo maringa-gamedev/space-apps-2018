@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class PlanManager : MonoBehaviour
 {
 
+	[SerializeField]
+	public bool payForBoat = true;
 	private Text weight, food, fuel, price, boat;
 
 	private Hire astronomy, biology, construction, geography, journalism, medicine;
@@ -49,7 +51,7 @@ public class PlanManager : MonoBehaviour
                 {
 					switch (job.name) {
 						case "boat":
-							boat = job.GetChild(1).GetComponent<Text>();
+							boat = job.GetChild(2).GetComponent<Text>();
 							break;
 						case "weight":
 							weight = job.GetChild(2).GetComponent<Text>();
@@ -82,9 +84,15 @@ public class PlanManager : MonoBehaviour
 		boatValue += geography.getCount();
 		boatValue += journalism.getCount();
 		boatValue += medicine.getCount();
-        boat.text = boatValue + "/12"; 
+        boat.text = boatValue + " / 14"; 
 
-		priceValue = 0;
+		if (boatValue > 14) {
+			boat.color = UnityEngine.Color.red;
+		} else {
+			boat.color = new UnityEngine.Color(0.2f, 0.2f, 0.2f, 1.0f);
+		}
+
+		priceValue = payForBoat ? 350000 : 0;
 		priceValue += 10000 * astronomy.getCount();
 		priceValue += 10000 * biology.getCount();
 		priceValue += 10000 * construction.getCount();
