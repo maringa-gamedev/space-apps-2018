@@ -9,3 +9,23 @@ GAME_INVENTORY_FOOD		Food	Comida
 EREBUS_CREW		Crew	Tripulação	
 EREBUS_SHOP		Shop	Loja	
 EREBUS_PLANNING		Planning	Planejamento	
+EREBUS_BASE		Base	Base	
+EREBUS_COST		COST	Custo	
+EREBUS_HAMMER		Hammer	Martelo	
+EREBUS_WRENCH		Wrench	Chave inglesa	
+EREBUS_SATELLITE		Satellite	Satélite	
+EREBUS_TELESCOPE		Telescope	Telescópio	
+EREBUS_MICROSCOPE		Microscope	Microscópio	
+EREBUS_TRUCK		Truck	Caminhão	
+EREBUS_SYRINGE		Syringe	Seringa	
+EREBUS_SLED		Sled	Trenó	
+EREBUS_CAMERA		Camera	Câmera	
+EREBUS_HAMMER_DESC		Tool needed for geo-survey	Ferramenta necessária para sondagem do geólogo	
+EREBUS_WRENCH_DESC		Tool needed for base building	Ferramenta necessária para construção de base	
+EREBUS_SATELLITE_DESC		Satellite setup for future experiments	Kit de Satélite para experimentos futuros	
+EREBUS_TELESCOPE_DESC		Tool needed for astronomic observations	Ferramenta necessária para observações astronômicas	
+EREBUS_MICROSCOPE_DESC		Tool needed for biologic experiments	Ferramenta necessária para experimentos biológicos	
+EREBUS_TRUCK_DESC		Facilitates ground travel	Facilita viagem terrestre	
+EREBUS_SYRINGE_DESC		Supply for medical care	Insumo do cuidado médico	
+EREBUS_CAMERA_DESC		Tool for documentary recording	Ferramenta para gravar documentários	
+EREBUS_BASE_DESC		Material needed for base building	Material necessário para construção de base	

@@ -55,7 +55,8 @@ public class Hire : MonoBehaviour
         if (count < 0) count = 0;
     }
 
-    public int getCount() {
-      return count;
+    public int getCount()
+    {
+        return count;
     }
 }
