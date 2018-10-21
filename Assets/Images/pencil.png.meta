@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: d31af7cc45cbf444890b6e4926d1a8f1
+guid: 01c8b311ff86044d5960cb2eb42f1de2
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: spritesheet_tilesBlue_0
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -41,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,44 +69,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: spritesheet_tilesBlue_0
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 85
-        width: 151
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86efa26f7250f436683965fc7894c990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4a9654deb3da94d569d70b959fcd25d6
+    spriteID: 1417588e1d88640159175c91d4b4649a
     vertices: []
     indices: 
     edges: []
